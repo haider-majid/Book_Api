@@ -15,7 +15,7 @@ namespace books.Repository.book
 
 
 
-        public async Task<IEnumerable<BookModel>> GetAllBooksAsync(string? search = null, bool? orderBy = null, int pageSize = 1, int pageNumber = 1)
+        public async Task<IEnumerable<BookModel>> GetAllBooksAsync(string? search = null, bool? orderBy = null, int pageSize = 1, int pageNumber = 1, Guid? categoryId = null)
         {
             var query = _context.Books.AsQueryable();
 
@@ -30,6 +30,13 @@ namespace books.Repository.book
                 query = query.OrderBy(x => x.name);
             }
             query = query.Skip((pageNumber - 1) * pageSize).Take(pageSize);
+
+            if (categoryId != null)
+                
+            {
+                query = query.Where(x => x.categoryId == categoryId);
+                
+            }
 
             return await query.ToListAsync();
         }
