@@ -2,14 +2,12 @@ using AutoMapper;
 using books.Dto;
 using books.Model;
 using books.Repository.book;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace books.Controllers
 {
     [Route("api/v1/books")]
     [ApiController]
-    //[Authorize]
     public class BookController : ControllerBase
     {
         private readonly IBookRepository _bookRepository;
@@ -21,18 +19,15 @@ namespace books.Controllers
             this.mapper = mapper;
         }
 
-
         [HttpGet]
-        public async Task<IActionResult> GetBooks([FromQuery] string? search = null, [FromQuery] bool? orderBy = null, [FromQuery] int pageSize = 10, [FromQuery] int pageNumber = 1 , [FromQuery] Guid? categoryId = null)
-
-
+        public async Task<IActionResult> GetBooks([FromQuery] string? search = null, [FromQuery] bool? orderBy = null, [FromQuery] int pageSize = 10, [FromQuery] int pageNumber = 1, [FromQuery] Guid? categoryId = null)
         {
-            var books = await _bookRepository.GetAllBooksAsync(search, orderBy, pageSize, pageNumber , categoryId);
+            var books = await _bookRepository.GetAllBooksAsync(search, orderBy, pageSize, pageNumber, categoryId);
 
             var response = mapper.Map<IEnumerable<BookDto>>(books);
             return Ok(response);
-
         }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetBookById(Guid id)
         {
@@ -41,45 +36,65 @@ namespace books.Controllers
             {
                 return NotFound();
             }
-            return Ok(book);
+
+            var response = mapper.Map<BookDto>(book);
+            return Ok(response);
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddBook([FromBody] AddBookModel book)
+        [HttpPost]
+        public async Task<IActionResult> AddBook([FromForm] AddBookModel book)
         {
+            string? imagePath = null;
+
+            if (book.Image != null)
+            {
+                var uploadsFolder = Path.Combine("wwwroot", "images");
+                Directory.CreateDirectory(uploadsFolder);
+
+                var uniqueFileName = $"{Guid.NewGuid()}_{book.Image.FileName}";
+                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await book.Image.CopyToAsync(fileStream);
+                }
+
+                imagePath = $"/images/{uniqueFileName}";
+            }
 
             var newBook = new BookModel
             {
                 name = book.name,
                 author = book.author,
                 description = book.description,
-                categoryId = book.categoryId
+                categoryId = book.categoryId,
+                ImagePath = imagePath
             };
 
             await _bookRepository.AddBookAsync(newBook);
 
             return CreatedAtAction(nameof(GetBookById), new { id = newBook.id }, newBook);
-
         }
+
 
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateBook(Guid id, [FromBody] UpdateBookDto book)
         {
-            // Fetch the existing book by ID
             var existingBook = await _bookRepository.GetBookByIdAsync(id);
             if (existingBook == null)
             {
                 return NotFound();
             }
 
-            // Map other properties but do not modify the ID
+            // Map updated fields
             mapper.Map(book, existingBook);
 
-            // Save the updated entity
             await _bookRepository.UpdateBookAsync(existingBook);
-            return Ok(existingBook);
-        }
 
+            var response = mapper.Map<BookDto>(existingBook);
+            return Ok(response);
+        }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteBook(Guid id)

@@ -12,4 +12,6 @@ public class AddBookModel
  
     public string description { get; set; } = string.Empty;
     public Guid categoryId { get; set; }
+    public IFormFile? Image { get; set; }
+
 }

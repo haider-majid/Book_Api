@@ -11,5 +11,7 @@ public class AddBookDto
     public string author { get; set; } = string.Empty;
     public string description { get; set; } = string.Empty;
     public Guid categoryId { get; set; }
+    public string? imageUrl { get; set; } 
+
 
 }

@@ -15,6 +15,9 @@ public class BookModel
 
     public string? description { get; set; }
     public Guid categoryId { get; set; }
+    
+    public string? ImagePath { get; set; }
+
 
 
 }

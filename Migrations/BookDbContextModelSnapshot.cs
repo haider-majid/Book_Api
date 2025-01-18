@@ -22,33 +22,15 @@ namespace books.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("books.Model.AddBookModel", b =>
-                {
-                    b.Property<string>("author")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<Guid>("categoryId")
-                        .HasColumnType("uuid");
-
-                    b.Property<string>("description")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("name")
-                        .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("character varying(20)");
-
-                    b.ToTable("AddBookModel");
-                });
-
             modelBuilder.Entity("books.Model.BookModel", b =>
                 {
                     b.Property<Guid>("id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
+                    b.Property<string>("ImagePath")
+                        .HasColumnType("text");
+
                     b.Property<string>("author")
                         .HasColumnType("text");
 
@@ -59,9 +41,7 @@ namespace books.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("name")
-                        .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("character varying(20)");
+                        .HasColumnType("text");
 
                     b.HasKey("id");
 
