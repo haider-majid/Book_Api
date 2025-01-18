@@ -42,7 +42,6 @@ namespace books.Controllers
         }
 
         [HttpPost]
-        [HttpPost]
         public async Task<IActionResult> AddBook([FromForm] AddBookModel book)
         {
             string? imagePath = null;
@@ -79,22 +78,57 @@ namespace books.Controllers
 
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateBook(Guid id, [FromBody] UpdateBookDto book)
+        public async Task<IActionResult> UpdateBook(Guid id, [FromForm] UpdateBookDto bookDto)
         {
+            // الحصول على الكتاب الحالي من قاعدة البيانات
             var existingBook = await _bookRepository.GetBookByIdAsync(id);
             if (existingBook == null)
             {
                 return NotFound();
             }
 
-            // Map updated fields
-            mapper.Map(book, existingBook);
+            // إذا كانت هناك صورة جديدة مرفوعة
+            if (bookDto.Image != null)
+            {
+                var uploadsFolder = Path.Combine("wwwroot", "images");
+                Directory.CreateDirectory(uploadsFolder);
 
+                // حذف الصورة القديمة إذا كانت موجودة
+                if (!string.IsNullOrEmpty(existingBook.ImagePath))
+                {
+                    var oldImagePath = Path.Combine(uploadsFolder, Path.GetFileName(existingBook.ImagePath));
+                    if (System.IO.File.Exists(oldImagePath))
+                    {
+                        System.IO.File.Delete(oldImagePath);
+                    }
+                }
+
+                // رفع الصورة الجديدة
+                var uniqueFileName = $"{Guid.NewGuid()}_{bookDto.Image.FileName}";
+                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                await using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await bookDto.Image.CopyToAsync(fileStream);
+                }
+
+                // تحديث مسار الصورة
+                existingBook.ImagePath = $"/images/{uniqueFileName}";
+            }
+
+            // تحديث باقي الحقول
+            existingBook.name = bookDto.name ?? existingBook.name;
+            existingBook.author = bookDto.author ?? existingBook.author;
+            existingBook.description = bookDto.description ?? existingBook.description;
+            existingBook.categoryId = bookDto.categoryId ?? existingBook.categoryId;
+
+            // حفظ التعديلات
             await _bookRepository.UpdateBookAsync(existingBook);
 
-            var response = mapper.Map<BookDto>(existingBook);
-            return Ok(response);
+            return Ok(existingBook);
         }
+
+
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteBook(Guid id)

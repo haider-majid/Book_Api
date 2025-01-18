@@ -15,10 +15,7 @@ namespace books.Validators
 
             RuleFor(book => book.description)
                 .MaximumLength(200).WithMessage("The description must not exceed 200 characters.");
-
-            RuleFor(book => book.categoryId)
-                .NotEmpty().WithMessage("The category ID is required.")
-                .NotEqual(Guid.Empty).WithMessage("The category ID cannot be empty.");
+            
         }
     }
 }

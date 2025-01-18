@@ -1,11 +1,949 @@
 {
   "Version": 1,
-  "Hash": "zdhiQZuh8XwmWprHfC5w0ISurPoiSYKEx76pbV2nNwc=",
+  "Hash": "BgGFlyGg3osqVOhlWQ6VcDBaU80Fd3SRY48tPdjogw0=",
   "Source": "books",
   "BasePath": "_content/books",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "books/wwwroot",
+      "Source": "books",
+      "ContentRoot": "/Users/hhhff/Desktop/asp projects/books/wwwroot/",
+      "BasePath": "_content/books",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/29801b5d-8a81-4e30-baab-d3d4b87a3599_haider.jpg",
+      "SourceId": "books",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/hhhff/Desktop/asp projects/books/wwwroot/",
+      "BasePath": "_content/books",
+      "RelativePath": "images/29801b5d-8a81-4e30-baab-d3d4b87a3599_haider#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8jbh7kvez5",
+      "Integrity": "XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/29801b5d-8a81-4e30-baab-d3d4b87a3599_haider.jpg"
+    },
+    {
+      "Identity": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/351849b1-33a2-4c8e-b2e2-ba836b4f9a4a_haider.jpg",
+      "SourceId": "books",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/hhhff/Desktop/asp projects/books/wwwroot/",
+      "BasePath": "_content/books",
+      "RelativePath": "images/351849b1-33a2-4c8e-b2e2-ba836b4f9a4a_haider#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8jbh7kvez5",
+      "Integrity": "XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/351849b1-33a2-4c8e-b2e2-ba836b4f9a4a_haider.jpg"
+    },
+    {
+      "Identity": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/3a155f8e-4e4a-4f3a-a479-e44a5648ad37_IMG_3413.PNG",
+      "SourceId": "books",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/hhhff/Desktop/asp projects/books/wwwroot/",
+      "BasePath": "_content/books",
+      "RelativePath": "images/3a155f8e-4e4a-4f3a-a479-e44a5648ad37_IMG_3413#[.{fingerprint}]?.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kfgwi68ohd",
+      "Integrity": "0Dq4nvMMDAXxg9tyq6IaQUXuAzh1h1lf9KCBRgFTYkY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/3a155f8e-4e4a-4f3a-a479-e44a5648ad37_IMG_3413.PNG"
+    },
+    {
+      "Identity": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/60d2466c-a5f0-4b0b-97b8-4ace908b7c89_IMG_3413.PNG",
+      "SourceId": "books",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/hhhff/Desktop/asp projects/books/wwwroot/",
+      "BasePath": "_content/books",
+      "RelativePath": "images/60d2466c-a5f0-4b0b-97b8-4ace908b7c89_IMG_3413#[.{fingerprint}]?.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kfgwi68ohd",
+      "Integrity": "0Dq4nvMMDAXxg9tyq6IaQUXuAzh1h1lf9KCBRgFTYkY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/60d2466c-a5f0-4b0b-97b8-4ace908b7c89_IMG_3413.PNG"
+    },
+    {
+      "Identity": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/7a006c54-95ae-463a-abe8-4b7b7a9792c1_haider.jpg",
+      "SourceId": "books",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/hhhff/Desktop/asp projects/books/wwwroot/",
+      "BasePath": "_content/books",
+      "RelativePath": "images/7a006c54-95ae-463a-abe8-4b7b7a9792c1_haider#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8jbh7kvez5",
+      "Integrity": "XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/7a006c54-95ae-463a-abe8-4b7b7a9792c1_haider.jpg"
+    },
+    {
+      "Identity": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/7edc8d34-bc98-4126-b5c2-b1d55abc36b5_haider.jpg",
+      "SourceId": "books",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/hhhff/Desktop/asp projects/books/wwwroot/",
+      "BasePath": "_content/books",
+      "RelativePath": "images/7edc8d34-bc98-4126-b5c2-b1d55abc36b5_haider#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8jbh7kvez5",
+      "Integrity": "XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/7edc8d34-bc98-4126-b5c2-b1d55abc36b5_haider.jpg"
+    },
+    {
+      "Identity": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/80e0fe5e-5777-4386-b28a-5488d29aba19_haider.jpg",
+      "SourceId": "books",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/hhhff/Desktop/asp projects/books/wwwroot/",
+      "BasePath": "_content/books",
+      "RelativePath": "images/80e0fe5e-5777-4386-b28a-5488d29aba19_haider#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8jbh7kvez5",
+      "Integrity": "XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/80e0fe5e-5777-4386-b28a-5488d29aba19_haider.jpg"
+    },
+    {
+      "Identity": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/b2ac8a9b-26cd-4132-b5a2-3bd6c84b7276_haider.jpg",
+      "SourceId": "books",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/hhhff/Desktop/asp projects/books/wwwroot/",
+      "BasePath": "_content/books",
+      "RelativePath": "images/b2ac8a9b-26cd-4132-b5a2-3bd6c84b7276_haider#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8jbh7kvez5",
+      "Integrity": "XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/b2ac8a9b-26cd-4132-b5a2-3bd6c84b7276_haider.jpg"
+    },
+    {
+      "Identity": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/be0878c7-626e-42da-99fc-d072040e945d_photo_2024-05-29 23.58.05.jpeg",
+      "SourceId": "books",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/hhhff/Desktop/asp projects/books/wwwroot/",
+      "BasePath": "_content/books",
+      "RelativePath": "images/be0878c7-626e-42da-99fc-d072040e945d_photo_2024-05-29 23.58.05#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tvkbh92e9v",
+      "Integrity": "h6z5bS+lloP12j6YFQhlDkKVeOnQ2v/QAC7SdPrc7po=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/be0878c7-626e-42da-99fc-d072040e945d_photo_2024-05-29 23.58.05.jpeg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/29801b5d-8a81-4e30-baab-d3d4b87a3599_haider.8jbh7kvez5.jpg",
+      "AssetFile": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/29801b5d-8a81-4e30-baab-d3d4b87a3599_haider.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2216698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 20:00:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8jbh7kvez5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/29801b5d-8a81-4e30-baab-d3d4b87a3599_haider.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE="
+        }
+      ]
+    },
+    {
+      "Route": "images/29801b5d-8a81-4e30-baab-d3d4b87a3599_haider.jpg",
+      "AssetFile": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/29801b5d-8a81-4e30-baab-d3d4b87a3599_haider.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2216698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 20:00:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE="
+        }
+      ]
+    },
+    {
+      "Route": "images/351849b1-33a2-4c8e-b2e2-ba836b4f9a4a_haider.8jbh7kvez5.jpg",
+      "AssetFile": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/351849b1-33a2-4c8e-b2e2-ba836b4f9a4a_haider.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2216698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 20:02:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8jbh7kvez5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/351849b1-33a2-4c8e-b2e2-ba836b4f9a4a_haider.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE="
+        }
+      ]
+    },
+    {
+      "Route": "images/351849b1-33a2-4c8e-b2e2-ba836b4f9a4a_haider.jpg",
+      "AssetFile": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/351849b1-33a2-4c8e-b2e2-ba836b4f9a4a_haider.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2216698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 20:02:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE="
+        }
+      ]
+    },
+    {
+      "Route": "images/3a155f8e-4e4a-4f3a-a479-e44a5648ad37_IMG_3413.kfgwi68ohd.PNG",
+      "AssetFile": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/3a155f8e-4e4a-4f3a-a479-e44a5648ad37_IMG_3413.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1909343"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0Dq4nvMMDAXxg9tyq6IaQUXuAzh1h1lf9KCBRgFTYkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 20:03:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kfgwi68ohd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/3a155f8e-4e4a-4f3a-a479-e44a5648ad37_IMG_3413.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0Dq4nvMMDAXxg9tyq6IaQUXuAzh1h1lf9KCBRgFTYkY="
+        }
+      ]
+    },
+    {
+      "Route": "images/3a155f8e-4e4a-4f3a-a479-e44a5648ad37_IMG_3413.PNG",
+      "AssetFile": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/3a155f8e-4e4a-4f3a-a479-e44a5648ad37_IMG_3413.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1909343"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0Dq4nvMMDAXxg9tyq6IaQUXuAzh1h1lf9KCBRgFTYkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 20:03:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0Dq4nvMMDAXxg9tyq6IaQUXuAzh1h1lf9KCBRgFTYkY="
+        }
+      ]
+    },
+    {
+      "Route": "images/60d2466c-a5f0-4b0b-97b8-4ace908b7c89_IMG_3413.kfgwi68ohd.PNG",
+      "AssetFile": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/60d2466c-a5f0-4b0b-97b8-4ace908b7c89_IMG_3413.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1909343"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0Dq4nvMMDAXxg9tyq6IaQUXuAzh1h1lf9KCBRgFTYkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 20:03:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kfgwi68ohd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/60d2466c-a5f0-4b0b-97b8-4ace908b7c89_IMG_3413.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0Dq4nvMMDAXxg9tyq6IaQUXuAzh1h1lf9KCBRgFTYkY="
+        }
+      ]
+    },
+    {
+      "Route": "images/60d2466c-a5f0-4b0b-97b8-4ace908b7c89_IMG_3413.PNG",
+      "AssetFile": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/60d2466c-a5f0-4b0b-97b8-4ace908b7c89_IMG_3413.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1909343"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0Dq4nvMMDAXxg9tyq6IaQUXuAzh1h1lf9KCBRgFTYkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 20:03:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0Dq4nvMMDAXxg9tyq6IaQUXuAzh1h1lf9KCBRgFTYkY="
+        }
+      ]
+    },
+    {
+      "Route": "images/7a006c54-95ae-463a-abe8-4b7b7a9792c1_haider.8jbh7kvez5.jpg",
+      "AssetFile": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/7a006c54-95ae-463a-abe8-4b7b7a9792c1_haider.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2216698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 20:00:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8jbh7kvez5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/7a006c54-95ae-463a-abe8-4b7b7a9792c1_haider.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE="
+        }
+      ]
+    },
+    {
+      "Route": "images/7a006c54-95ae-463a-abe8-4b7b7a9792c1_haider.jpg",
+      "AssetFile": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/7a006c54-95ae-463a-abe8-4b7b7a9792c1_haider.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2216698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 20:00:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE="
+        }
+      ]
+    },
+    {
+      "Route": "images/7edc8d34-bc98-4126-b5c2-b1d55abc36b5_haider.8jbh7kvez5.jpg",
+      "AssetFile": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/7edc8d34-bc98-4126-b5c2-b1d55abc36b5_haider.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2216698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 20:07:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8jbh7kvez5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/7edc8d34-bc98-4126-b5c2-b1d55abc36b5_haider.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE="
+        }
+      ]
+    },
+    {
+      "Route": "images/7edc8d34-bc98-4126-b5c2-b1d55abc36b5_haider.jpg",
+      "AssetFile": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/7edc8d34-bc98-4126-b5c2-b1d55abc36b5_haider.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2216698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 20:07:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE="
+        }
+      ]
+    },
+    {
+      "Route": "images/80e0fe5e-5777-4386-b28a-5488d29aba19_haider.8jbh7kvez5.jpg",
+      "AssetFile": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/80e0fe5e-5777-4386-b28a-5488d29aba19_haider.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2216698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 20:13:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8jbh7kvez5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/80e0fe5e-5777-4386-b28a-5488d29aba19_haider.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE="
+        }
+      ]
+    },
+    {
+      "Route": "images/80e0fe5e-5777-4386-b28a-5488d29aba19_haider.jpg",
+      "AssetFile": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/80e0fe5e-5777-4386-b28a-5488d29aba19_haider.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2216698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 20:13:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE="
+        }
+      ]
+    },
+    {
+      "Route": "images/b2ac8a9b-26cd-4132-b5a2-3bd6c84b7276_haider.8jbh7kvez5.jpg",
+      "AssetFile": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/b2ac8a9b-26cd-4132-b5a2-3bd6c84b7276_haider.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2216698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 20:07:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8jbh7kvez5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/b2ac8a9b-26cd-4132-b5a2-3bd6c84b7276_haider.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE="
+        }
+      ]
+    },
+    {
+      "Route": "images/b2ac8a9b-26cd-4132-b5a2-3bd6c84b7276_haider.jpg",
+      "AssetFile": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/b2ac8a9b-26cd-4132-b5a2-3bd6c84b7276_haider.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2216698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 20:07:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XASaSpurrPuW9HiIbRvutKOZHUAd8xp1Qn+MptBaRjE="
+        }
+      ]
+    },
+    {
+      "Route": "images/be0878c7-626e-42da-99fc-d072040e945d_photo_2024-05-29 23.58.05.jpeg",
+      "AssetFile": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/be0878c7-626e-42da-99fc-d072040e945d_photo_2024-05-29 23.58.05.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h6z5bS+lloP12j6YFQhlDkKVeOnQ2v/QAC7SdPrc7po=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 20:10:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h6z5bS+lloP12j6YFQhlDkKVeOnQ2v/QAC7SdPrc7po="
+        }
+      ]
+    },
+    {
+      "Route": "images/be0878c7-626e-42da-99fc-d072040e945d_photo_2024-05-29 23.58.05.tvkbh92e9v.jpeg",
+      "AssetFile": "/Users/hhhff/Desktop/asp projects/books/wwwroot/images/be0878c7-626e-42da-99fc-d072040e945d_photo_2024-05-29 23.58.05.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h6z5bS+lloP12j6YFQhlDkKVeOnQ2v/QAC7SdPrc7po=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 20:10:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tvkbh92e9v"
+        },
+        {
+          "Name": "label",
+          "Value": "images/be0878c7-626e-42da-99fc-d072040e945d_photo_2024-05-29 23.58.05.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h6z5bS+lloP12j6YFQhlDkKVeOnQ2v/QAC7SdPrc7po="
+        }
+      ]
+    }
+  ]
 }

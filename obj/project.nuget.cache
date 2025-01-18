@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fI77rpTiJxUcGWTsGvACSuHcuNG+6YBYXXHyZqM30kt8H3fpjXuo2Rp01LT9c6yHPL0NamRM3a7FPgQEvOrB8Q==",
+  "dgSpecHash": "6WLpJO1J3Gk=",
   "success": true,
   "projectFilePath": "/Users/hhhff/Desktop/asp projects/books/books.csproj",
   "expectedPackageFiles": [
@@ -81,7 +81,10 @@
     "/Users/hhhff/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/Users/hhhff/.nuget/packages/system.text.encodings.web/9.0.0/system.text.encodings.web.9.0.0.nupkg.sha512",
     "/Users/hhhff/.nuget/packages/system.text.json/9.0.0/system.text.json.9.0.0.nupkg.sha512",
-    "/Users/hhhff/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
+    "/Users/hhhff/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512",
+    "/Users/hhhff/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/hhhff/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/hhhff/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.11/microsoft.netcore.app.host.osx-arm64.8.0.11.nupkg.sha512"
   ],
   "logs": [
     {
